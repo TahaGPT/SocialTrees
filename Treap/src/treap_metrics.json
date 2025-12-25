@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "size": 10,
+    "height": 6,
+    "rotations": 6,
+    "avg_insert_time_ms": 0.0020415998733369634,
+    "avg_delete_time_ms": 0.004123499855041504,
+    "avg_search_time_ms": 0.0022153000235557556,
+    "total_operations": 13
+  },
+  "snapshots": []
+}
