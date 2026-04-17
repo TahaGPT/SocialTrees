@@ -1,0 +1,151 @@
+========================================
+  Merkle Tree API Server
+========================================
+Server running on http://localhost:8080
+API Endpoints:
+  GET  /api/datasets
+  POST /api/tree/build
+  GET  /api/tree/structure
+  GET  /api/tree/root
+  POST /api/proof/generate
+  POST /api/proof/verify
+  GET  /api/stats
+  GET  /api/history
+  POST /api/record/update
+  POST /api/record/delete
+  POST /api/record/insert
+  POST /api/batch/update
+  GET  /api/health
+========================================
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] Received POST /api/tree/build
+[SERVER] Requesting build for: small_dataset.jsonl
+Mapping File to Memory (MMAP)...
+[API] Constructing Merkle Tree...
+[System] Using 12 Threads (Linear Quad-Tree + Byte Arrays)...
+[Performance] Tree built in 1 ms (0.001s)
+[Memory] Peak usage: 4.25 MB
+[Metrics] Avg Hash Time per Record: 0.025 ms
+[API] Tree built successfully.
+[SERVER] POST /api/tree/build -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] OPTIONS Headers for /api/tree/build:
+  Sec-Fetch-Site: cross-site
+  Sec-Fetch-Mode: cors
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+  Sec-Fetch-Dest: empty
+  Origin: http://127.0.0.1:5173
+  Access-Control-Request-Headers: content-type
+  Accept-Encoding: gzip, deflate, br, zstd
+  Referer: http://127.0.0.1:5173/
+  Accept: */*
+  Accept-Language: en-US,en;q=0.9
+  Access-Control-Request-Method: POST
+  Connection: keep-alive
+  Host: localhost:8080
+[SERVER] OPTIONS /api/tree/build -> 200
+[SERVER] Received POST /api/tree/build
+[SERVER] Requesting build for: small_dataset.jsonl
+Mapping File to Memory (MMAP)...
+[API] Constructing Merkle Tree...
+[System] Using 12 Threads (Linear Quad-Tree + Byte Arrays)...
+[Performance] Tree built in 4 ms (0.004s)
+[Memory] Peak usage: 4.5 MB
+[Metrics] Avg Hash Time per Record: 0.1 ms
+[API] Tree built successfully.
+[SERVER] POST /api/tree/build -> 200
+[SERVER] GET /api/tree/structure -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/history -> 200
+[SERVER] Received POST /api/tree/build
+[SERVER] Requesting build for: small_dataset.jsonl
+Mapping File to Memory (MMAP)...
+[API] Constructing Merkle Tree...
+[System] Using 12 Threads (Linear Quad-Tree + Byte Arrays)...
+[Performance] Tree built in 3 ms (0.003s)
+[Memory] Peak usage: 0.125 MB
+[Metrics] Avg Hash Time per Record: 0.075 ms
+[API] Tree built successfully.
+[SERVER] POST /api/tree/build -> 200
+[SERVER] POST /api/proof/generate -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] Received POST /api/tree/build
+[SERVER] Requesting build for: small_dataset.jsonl
+Mapping File to Memory (MMAP)...
+[API] Constructing Merkle Tree...
+[System] Using 12 Threads (Linear Quad-Tree + Byte Arrays)...
+[Performance] Tree built in 1 ms (0.001s)
+[Memory] Peak usage: 4.86719 MB
+[Metrics] Avg Hash Time per Record: 0.025 ms
+[API] Tree built successfully.
+[SERVER] POST /api/tree/build -> 200
+[SERVER] GET /api/tree/structure -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/history -> 200
+[SERVER] GET /api/tree/root -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] GET /api/history -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] GET /api/history -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/health -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] GET /api/datasets -> 200
+[SERVER] Received POST /api/tree/build
+[SERVER] Requesting build for: small_dataset.jsonl
+Mapping File to Memory (MMAP)...
+[API] Constructing Merkle Tree...
+[System] Using 12 Threads (Linear Quad-Tree + Byte Arrays)...
+[Performance] Tree built in 1 ms (0.001s)
+[Memory] Peak usage: 4.99219 MB
+[Metrics] Avg Hash Time per Record: 0.025 ms
+[API] Tree built successfully.
+[SERVER] POST /api/tree/build -> 200
+[SERVER] GET /api/tree/structure -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/history -> 200
+[SERVER] GET /api/tree/structure -> 200
+[SERVER] Received POST /api/tree/build
+[SERVER] Requesting build for: small_dataset.jsonl
+Mapping File to Memory (MMAP)...
+[API] Constructing Merkle Tree...
+[System] Using 12 Threads (Linear Quad-Tree + Byte Arrays)...
+[Performance] Tree built in 2 ms (0.002s)
+[Memory] Peak usage: 5.24219 MB
+[Metrics] Avg Hash Time per Record: 0.05 ms
+[API] Tree built successfully.
+[SERVER] POST /api/tree/build -> 200
+[SERVER] GET /api/tree/structure -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/history -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] Received POST /api/tree/build
+[SERVER] Requesting build for: small_dataset.jsonl
+Mapping File to Memory (MMAP)...
+[API] Constructing Merkle Tree...
+[System] Using 12 Threads (Linear Quad-Tree + Byte Arrays)...
+[Performance] Tree built in 1 ms (0.001s)
+[Memory] Peak usage: 5.24219 MB
+[Metrics] Avg Hash Time per Record: 0.025 ms
+[API] Tree built successfully.
+[SERVER] POST /api/tree/build -> 200
+[SERVER] GET /api/stats -> 200
+[SERVER] GET /api/tree/structure -> 200
